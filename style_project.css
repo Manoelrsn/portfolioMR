@@ -1,0 +1,66 @@
+/*Definição de cores e configurações do portfolio*/
+body{
+    background-image: url(./pictures/background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Urbanist;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+/*Cabeçalho - Definição de links internos e mídias sociais*/
+header{
+    padding-top: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.left_header{
+    padding-left: 4%;
+    width: 46%;
+}
+
+.current{
+    border-bottom: 1px solid white;
+}
+
+.left_header a:hover{
+    color: rgba(255, 255, 255, 0.158);
+    border-color: rgba(255, 255, 255, 0.158);
+}
+
+.left_header a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+
+.right_header{
+    width: 12%;
+    margin-left: 33%;
+    margin-right: 5%;
+}
+
+.right_header img{
+    margin-left: 7%;
+    width: 20%;
+}
+
+
+
+
+
+@font-face { /*title of Logo: Manoel Rocha*/
+    font-family: Anurati;
+    src: url(./font-text/Anurati-Regular.otf);
+}
+
+@font-face { /*title of all: Manoel Rocha*/
+    font-family: Urbanist;
+    src: url(./font-text/Urbanist.ttf);
+}
+
